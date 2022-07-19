@@ -34,5 +34,6 @@ public class Practice01Test {
 		System.out.println("cast===="+cast);
 		System.out.println("religion==="+religion);
 		System.out.println("From Test_04");
+		System.out.println("CLOSE THE CLASS");
 	}
 }
