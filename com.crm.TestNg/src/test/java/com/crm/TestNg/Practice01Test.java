@@ -43,5 +43,7 @@ public class Practice01Test {
 		System.out.println("============");
 		System.out.println("++++++++++++");
 		System.out.println("=================");
+		System.out.println("++++++++++++++++++");
+		
 	}
 }
