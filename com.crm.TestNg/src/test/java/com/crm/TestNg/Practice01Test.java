@@ -7,14 +7,12 @@ public class Practice01Test {
 	public void Test01() {
 		String url = System.getProperty("url");
 		String browser = System.getProperty("browser");
-		System.out.println("From Test_01");
 		System.out.println("url======"+url);
 		System.out.println("browser======"+browser);
-		
-		
+		System.out.println("From Test_01");
 	}
 	@Test
-	public void Test2(){
+	public void Test02(){
 		String username = System.getProperty("un");
 		String password = System.getProperty("pwd");
 		System.out.println("username======"+username);
@@ -22,15 +20,19 @@ public class Practice01Test {
 		System.out.println("From Test_02");
 	}
 	@Test
-	public void Test02() {
-		String place = System.getProperty("Place");
-		String nationality = System.getProperty("Nationality");
+	public void Test03() {
+		String place = System.getProperty("place");
+		String nationality = System.getProperty("nationality");
 		System.out.println("place======="+place);
 		System.out.println("nationality========"+nationality);
 		System.out.println("From Test_03");
 	}
 	@Test
-	public void Test03() {
+	public void Test04() {
+		String cast = System.getProperty("cast");
+		String religion =System.getProperty("religion");
+		System.out.println("cast===="+cast);
+		System.out.println("religion==="+religion);
 		System.out.println("From Test_04");
 	}
 }
