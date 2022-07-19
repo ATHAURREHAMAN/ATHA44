@@ -10,6 +10,7 @@ public class Practice01Test {
 		System.out.println("url======"+url);
 		System.out.println("browser======"+browser);
 		System.out.println("From Test_01");
+		System.out.println("close method=01");
 	}
 	@Test
 	public void Test02(){
@@ -18,6 +19,7 @@ public class Practice01Test {
 		System.out.println("username======"+username);
 		System.out.println("password======"+password);
 		System.out.println("From Test_02");
+		System.out.println("close method=02");
 	}
 	@Test
 	public void Test03() {
@@ -26,6 +28,7 @@ public class Practice01Test {
 		System.out.println("place======="+place);
 		System.out.println("nationality========"+nationality);
 		System.out.println("From Test_03");
+		System.out.println("close method=03");
 	}
 	@Test
 	public void Test04() {
@@ -35,5 +38,6 @@ public class Practice01Test {
 		System.out.println("religion==="+religion);
 		System.out.println("From Test_04");
 		System.out.println("CLOSE THE CLASS");
+		System.out.println("close method=04");
 	}
 }
