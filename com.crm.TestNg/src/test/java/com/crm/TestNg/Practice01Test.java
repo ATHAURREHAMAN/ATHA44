@@ -41,6 +41,7 @@ public class Practice01Test {
 		System.out.println("CLOSE THE CLASS");
 		System.out.println("Class ENDED");
 		System.out.println("============");
-		System.out.println("++++++++++++);
+		System.out.println("++++++++++++");
+		System.out.println("=================");
 	}
 }
