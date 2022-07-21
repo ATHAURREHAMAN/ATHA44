@@ -1,25 +1,25 @@
 package com.crm.TestNg;
 
 import org.testng.annotations.Test;
-
 public class Practice01Test {
 	@Test
 	public void Test01() {
-		String url = System.getProperty("url");
-		String browser = System.getProperty("browser");
-		System.out.println("url======"+url);
-		System.out.println("browser======"+browser);
-		System.out.println("From Test_01");
-		System.out.println("close method=01");
-	}
-	@Test
-	public void Test02(){
 		String username = System.getProperty("un");
 		String password = System.getProperty("pwd");
 		System.out.println("username======"+username);
 		System.out.println("password======"+password);
 		System.out.println("From Test_02");
 		System.out.println("close method=02");
+		
+	}
+	@Test
+	public void Test02(){
+		String url = System.getProperty("url");
+		String browser = System.getProperty("browser");
+		System.out.println("url======"+url);
+		System.out.println("browser======"+browser);
+		System.out.println("From Test_01");
+		System.out.println("close method=01");	
 	}
 	@Test
 	public void Test03() {
