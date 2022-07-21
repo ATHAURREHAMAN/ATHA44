@@ -8,18 +8,20 @@ public class Practice01Test {
 		String password = System.getProperty("pwd");
 		System.out.println("username======"+username);
 		System.out.println("password======"+password);
-		System.out.println("From Test_02");
-		System.out.println("close method=02");
+		System.out.println("From Test_01");
+		System.out.println("close method=01");
 		
 	}
 	@Test
 	public void Test02(){
+		System.out.println("+++++++");
 		String url = System.getProperty("url");
 		String browser = System.getProperty("browser");
+		System.out.println("+++++++++++");
 		System.out.println("url======"+url);
 		System.out.println("browser======"+browser);
-		System.out.println("From Test_01");
-		System.out.println("close method=01");	
+		System.out.println("From Test_02");
+		System.out.println("close method=02");	
 	}
 	@Test
 	public void Test03() {
